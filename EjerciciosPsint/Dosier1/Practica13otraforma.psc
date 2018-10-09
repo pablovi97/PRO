@@ -12,7 +12,7 @@ Algoritmo Practica13
 	Escribir "dame el tercer numero";
 	leer numero3
 	distancia2 = abs(primero - numero3)
-	si distancia2 = abs( primero - numero3) Entonces
+	si distancia2 < menordistancia Entonces
 		menordistancia = distancia2
 		numeroResultante= numero3
 	FinSi
