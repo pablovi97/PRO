@@ -10,13 +10,18 @@ Algoritmo Tarea4
 		Escribir "dame un numero"
 		leer num
 		si num % 2 = 0 Entonces
-			si num > siguiente Entonces
-				num = siguiente
-				num = nummayor
-				
-			FinSi
 			
+			
+			
+			si num > temp Entonces
+				numayor = num
+			SiNo
+				temp = numayor
+			
+			FinSi
+			num =temp	
 		FinSi
+		
 	Hasta Que num < 0
-		escribir "el numero mayor es", nummayor
+		escribir "el numero par mayor es ", numayor
 FinAlgoritmo
