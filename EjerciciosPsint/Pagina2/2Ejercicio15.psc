@@ -16,9 +16,9 @@
 	
 	
 	
-	//Haz un algoritmo que calcule el máximo común divisor (mcd) 
-	//de tres enteros positivos. El mcd de tres números es el número 
-	//más grande que divide exactamente a los tres.	
+	//Haz un algoritmo que calcule el mÃ¡ximo comÃºn divisor (mcd) 
+	//de tres enteros positivos. El mcd de tres nÃºmeros es el nÃºmero 
+	//mÃ¡s grande que divide exactamente a los tres.	
 	
 	
 	
@@ -41,7 +41,7 @@
 			
 			Repetir
 				
-				Escribir "escribir num",1
+				Escribir "escribir num",i
 				leer numSiguiente
 				
 				resultadoMCDparcial = mcd(resultadoMCDparcial,numSiguiente)
