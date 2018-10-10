@@ -1,8 +1,8 @@
 
 //Pablo_Viera_Martin
 Algoritmo Tarea3
-	// Hacer un código en el que el usuario introduzca dos números enteros y el programa
-	//mostrará y sumará todos los múltiplos de cinco que haya entre esos dos números
+	// Hacer un cÃ³digo en el que el usuario introduzca dos nÃºmeros enteros y el programa
+	//mostrarÃ¡ y sumarÃ¡ todos los mÃºltiplos de cinco que haya entre esos dos nÃºmeros
 	definir num1 , num2 , result , temp Como Entero
 	escribir "dame un numero"
 	leer num1
@@ -15,7 +15,7 @@ Algoritmo Tarea3
 			si num2 % 5 = 0 Entonces
 				
 				escribir num2
-				suma = num1 + suma
+				suma = num2 + suma
 				
 			FinSi
 		
