@@ -36,7 +36,7 @@ mostrar casos en los que es útil el uso de esos métodos y como usarlos.
          
            System.out.println(texto);
              texto.delete(1, 3);
-             //el delete va quitando de la cadena lo que le pidas en este caso quita desde el priemro de la cadena hasta el tercero
+             //el delete va quitando de la cadena lo que le pidas en este caso quita desde el primero de la cadena hasta el tercero
              System.out.println(texto);
              
              texto.insert(3, "HOLA!");
