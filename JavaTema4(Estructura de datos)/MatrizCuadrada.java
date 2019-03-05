@@ -71,7 +71,7 @@ compotenente es la suma de las componentes
         MatrizCuadrada mc1 = new MatrizCuadrada(4);
         
         
-       mostrarArray(mc.suma(mc, mc));
+       mostrarArray(mc.suma(mc, mc1));
 
     }
      public static void  mostrarArray( int[][]arr){
