@@ -1,0 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-mar-2019, 14:16:59
+    Author     : pablo
+*/
+
+.button {
+   -fx-background-image: url("../images/icono.png");
+   -fx-background-size: 75%;
+   -fx-background-position: center;
+   -fx-background-repeat: no-repeat;
+}
+.Pane{
+    -fx-background-color: red;
+}
