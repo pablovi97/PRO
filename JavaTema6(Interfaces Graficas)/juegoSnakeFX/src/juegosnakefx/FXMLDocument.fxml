@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#mover" prefHeight="711.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juegosnakefx.FXMLDocumentController">
+    <children>
+        <Button fx:id="btn" layoutX="337.0" layoutY="583.0" onAction="#ejecutar" text="Iniciar" />
+      <Canvas fx:id="canvas" height="559.0" layoutX="14.0" layoutY="14.0" width="768.0" />
+    </children>
+</AnchorPane>
